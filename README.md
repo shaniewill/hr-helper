@@ -27,6 +27,7 @@ This project is configured with GitHub Actions:
 - **CI (`.github/workflows/ci.yml`)**: Runs on Pull Requests to `main`. Installs dependencies and verifies the build.
 - **Deploy (`.github/workflows/deploy.yml`)**: Runs on pushes to `main`. Builds the project and includes a placeholder for deployment commands.
 
+
 ## Project Structure
 
 - `src/`: Source code.
