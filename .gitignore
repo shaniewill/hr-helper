@@ -7,10 +7,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Production
 dist
 dist-ssr
-*.local
+build
+
+# Misc
+.DS_Store
+*.pem
+
+# Environment Variables
+.env
+.env.*
+!.env.example
 
 # Editor directories and files
 .vscode/*
